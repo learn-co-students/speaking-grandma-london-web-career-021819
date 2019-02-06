@@ -1,5 +1,14 @@
 # Write a speak_to_grandma method.
-
+def speak_to_grandma(speak_to_grandma)
+if speak_to_grandma == "I LOVE YOU GRANDMA!"
+ "I LOVE YOU TOO PUMPKIN!"
+    elsif speak_to_grandma == speak_to_grandma.upcase
+ "NO, NOT SINCE 1938!"
+    else
+ "HUH?! SPEAK UP, SONNY!"
+    end
+end
+speak_to_grandma("HELLO")
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
